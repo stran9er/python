@@ -15,7 +15,7 @@ while passCheck !='quit':				# A loop to allow multiple passwords to be checked 
 	passCheck = input("Enter a password to check or 'quit' to stop: ")
 
 	if passCheck in open (filename, encoding='UTF-8', errors='ignore').read():
-		print(f"Your password, '{passCheck}' WAS found int eh list.")
+		print(f"Your password, '{passCheck}' WAS found in the list.")
 
 	else:
 		print(f"Your password was NOT found in the list.")
