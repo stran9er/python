@@ -1,6 +1,6 @@
 # Enter your height and weight.  
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+height = input("Enter your height in m: ")
+weight = input("Enter your weight in kg: ")
 
 # Function to calculate BMI. 
 def bmi_calculator(h, w):
